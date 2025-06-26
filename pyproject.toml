@@ -1,0 +1,22 @@
+[project]
+name = "notebook"
+version = "0.1.0"
+description = "Practical examples of SKI and SKE methods"
+authors = [
+    {name = "Matteo Magnini",email = "matteo.magnini@unibo.it"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = "3.10.14"
+dependencies = [
+    "torch (>=2.7.1,<3.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "scikit-learn (>=1.7.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
