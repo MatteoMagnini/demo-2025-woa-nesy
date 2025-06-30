@@ -1,5 +1,6 @@
 .idea
 data/*.data
+data/*.test
 tmp*
 
 # Byte-compiled / optimized / DLL files
